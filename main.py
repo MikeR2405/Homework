@@ -12,3 +12,4 @@ CBER = int(D*(money/100))
 deposit = [TKB,CKB,BTB,CBER]
 print("Накопленные средства вклада за год в каждом из банков =",deposit)
 print("Максимальная сумма, которую вы можете заработать:", max(deposit))
+print('minimalka :', min(deposit))
