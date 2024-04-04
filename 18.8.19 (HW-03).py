@@ -5,7 +5,7 @@ cost3 = 1390  # стоимость для лиц от 25
 price = 0  # стоимость билетов в заказе
 
 for age in range(N):
-    age = (int(input("Введите возраст послетителя : ")))
+    age = (int(input("Введите возраст посетителя : ")))
     if age < 18:
         price += cost1
     elif age >= 18 and age <= 25:
