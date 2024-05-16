@@ -16,12 +16,12 @@ def binary_search(array, element, left, right):
         return middle  # Возвращаем индекс элемента, если он меньше искомого
     elif array[middle] < element:  # Если элемент больше элемента в середине
         return binary_search(array, element, middle + 1, right)  # Ищем в правой половине
-    else:  # Иначе
+    else:  
         return binary_search(array, element, left, middle - 1)  # Ищем в левой половине
 
 # Функция для ввода массива чисел
 def input_array():
-    while True:  # Бесконечный цикл до корректного ввода
+    while True:  
         try:
             raw_input = input("Введите последовательность чисел в любом порядке, через пробел: ")
             if not raw_input.strip():  # Если строка пустая
@@ -37,7 +37,7 @@ def input_array():
 
 # Функция для ввода искомого числа
 def input_element():
-    while True:  # Бесконечный цикл до корректного ввода
+    while True:  
         try:
             element_input = input("Введите любое число: ")
             if not element_input.strip().isdigit():  # Если введено не число
@@ -49,9 +49,9 @@ def input_element():
         except ValueError as e:  # Обработка исключений
             print(f'Ошибка: {e}')
 
-# Основная часть программы
-array = input_array()  # Ввод массива
-element = input_element()  # Ввод искомого числа
+# Ввод массива и искомого числа
+array = input_array()  
+element = input_element()  
 
 sorted_array = bubble_sorting(array)  # Сортировка массива
 print('Сортированный список:', sorted_array)  # Вывод отсортированного массива
@@ -61,3 +61,4 @@ if index is None:  # Если индекс не найден
     print('Нет такого числа')
 else:  # Если индекс найден
     print('Индекс элемента, который меньше введенного числа:', index)
+    
