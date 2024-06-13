@@ -1,0 +1,2304 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "'GET'/api/key",
+      "id": 1,
+      "attr": {
+        "position": [
+          102,
+          -261,
+          1
+        ],
+        "style": {
+          "text": {
+            "color": "#000000"
+          }
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "ПАРАМЕТРЫ ПУТИ",
+          "id": "2.0537.5f7f7a004-3060.12a2c87eb",
+          "attr": {
+            "style": {
+              "text": {
+                "color": "#000000"
+              }
+            },
+            "position": [
+              109.0625457763672,
+              -248.75001525878906,
+              3
+            ]
+          }
+        },
+        "2": {
+          "title": "тело запроса",
+          "id": "17.0537.5f7f7a004-3060.12a2c87eb",
+          "attr": {
+            "style": {
+              "text": {
+                "color": "#000000"
+              }
+            },
+            "position": [
+              114.06254577636719,
+              -186.2500152587891,
+              4
+            ]
+          }
+        },
+        "7": {
+          "title": "ПАРАМЕТРЫ СТРОКИ",
+          "id": "4.0537.5f7f7a004-3060.12a2c87eb",
+          "ideas": {},
+          "attr": {
+            "position": [
+              117.8125457763672,
+              -109.99997711181646,
+              5
+            ],
+            "style": {
+              "text": {
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        "12": {
+          "title": "заголовки",
+          "id": "8.0537.5f7f7a004-3060.12a2c87eb",
+          "ideas": {
+            "1": {
+              "title": "password",
+              "id": "6.0537.5f7f7a004-3060.12a2c87eb",
+              "attr": {
+                "style": {
+                  "text": {
+                    "color": "#000000"
+                  }
+                },
+                "position": [
+                  21.625015258789062,
+                  -176.25001907348627,
+                  1
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "валидный пароль",
+                  "id": "14.0537.5f7f7a004-3060.12a2c87eb",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00FF00",
+                      "text": {
+                        "color": "#000000"
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "не валидный пароль",
+                  "id": "15.0537.5f7f7a004-3060.12a2c87eb",
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "3": {
+                  "title": "пустое поле",
+                  "id": "16.0537.5f7f7a004-3060.12a2c87eb",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "email",
+              "id": "5.0537.5f7f7a004-3060.12a2c87eb",
+              "attr": {
+                "style": {
+                  "text": {
+                    "color": "#000000"
+                  }
+                },
+                "position": [
+                  107.3125,
+                  78.74996185302734,
+                  2
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "действующий email",
+                  "id": "9.0537.5f7f7a004-3060.12a2c87eb",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00FF00",
+                      "text": {
+                        "color": "#000000"
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "не валидный email",
+                  "id": "10.0537.5f7f7a004-3060.12a2c87eb",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "ideas": {}
+                },
+                "3": {
+                  "title": "используя в домене спец. символы",
+                  "id": "13.0537.5f7f7a004-3060.12a2c87eb",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "title": "домен кириллицей",
+                  "id": "11.0537.5f7f7a004-3060.12a2c87eb",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "5": {
+                  "title": "длинна поля более 67 символов",
+                  "id": "18.0537.5f7f7a004-3060.12a2c87eb",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "6": {
+                  "title": "без @",
+                  "id": "12.0537.5f7f7a004-3060.12a2c87eb",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              55.312545776367195,
+              235.00002288818348,
+              6
+            ],
+            "style": {
+              "text": {
+                "color": "#000000"
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "Get / api/pets",
+      "id": "20.ecac.e9a9eaf18-a1d3.2f620faa2",
+      "attr": {
+        "position": [
+          -916,
+          -98,
+          1
+        ],
+        "style": {
+          "text": {
+            "color": "#000000"
+          }
+        }
+      },
+      "ideas": {
+        "0.5": {
+          "title": "Параметры строки",
+          "id": "23.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              111,
+              -72,
+              1
+            ],
+            "style": {
+              "text": {
+                "color": "#000000"
+              }
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "filter: string",
+              "id": "24.ecac.e9a9eaf18-a1d3.2f620faa2",
+              "ideas": {
+                "1": {
+                  "title": "пустая строка",
+                  "id": "25.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#000000"
+                      },
+                      "backgroundColor": "#00FF00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "my_pets",
+                  "id": "26.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#000000"
+                      },
+                      "backgroundColor": "#00FF00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "строка = 255 символов",
+                  "id": "27.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "title": "строка длинной > 1000 символов",
+                  "id": "28.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "5": {
+                  "title": "спецсимволы",
+                  "id": "29.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "6": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "id": "30.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "7": {
+                  "title": "число",
+                  "id": "31.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "text": {
+                    "color": "#000000"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "0.25": {
+          "title": "Параметры пути",
+          "id": "21.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "ideas": {},
+          "attr": {
+            "style": {
+              "text": {
+                "color": "#000000"
+              }
+            },
+            "position": [
+              102,
+              -164,
+              2
+            ]
+          }
+        },
+        "10.5": {
+          "title": "тело запроса",
+          "id": "32.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              28,
+              210,
+              3
+            ]
+          }
+        },
+        "5.5": {
+          "title": "заголовки",
+          "id": "33.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              167,
+              132,
+              4
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "api_key:string",
+              "id": "34.ecac.e9a9eaf18-a1d3.2f620faa2",
+              "attr": {
+                "style": {
+                  "fontFamily": "Serif"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "действующий токен",
+                  "id": "35.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#339966",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "токен с истекшим сроком действия",
+                  "id": "36.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "3": {
+                  "title": "набор случайных символов",
+                  "id": "37.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "title": "спецсимволы",
+                  "id": "38.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "6": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "40.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "16": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "39.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "title": "POST\n​/api​/pets​/set_photo​/{pet_id}",
+      "id": "41.ecac.e9a9eaf18-a1d3.2f620faa2",
+      "attr": {
+        "position": [
+          -1107,
+          902,
+          1
+        ],
+        "style": {
+          "text": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "параметры пути",
+          "id": "42.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "style": {
+              "text": {
+                "color": "#000000"
+              },
+              "fontFamily": "Serif"
+            },
+            "position": [
+              144.81253051757824,
+              -100.49997711181652,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "pet id: string",
+              "id": "43.ecac.e9a9eaf18-a1d3.2f620faa2",
+              "ideas": {
+                "1": {
+                  "title": "существующий id",
+                  "id": "44.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00FF00",
+                      "text": {
+                        "color": "#000000"
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "пустое значение",
+                  "id": "45.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "3": {
+                  "title": "несуществующий id",
+                  "id": "46.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "title": "ID, превышающий размер типа",
+                  "id": "47.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "5": {
+                  "title": "строка",
+                  "id": "48.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "11": {
+          "title": "заголовки",
+          "id": "49.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              216.89060974121105,
+              118.50002288818337,
+              2
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "api_key:string",
+              "attr": {
+                "style": {
+                  "fontFamily": "Serif"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "действующий токен",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#339966",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "51.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "токен с истекшим сроком действия",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "52.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "набор случайных символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "53.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "54.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "55.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "6": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "56.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              },
+              "id": "50.ecac.e9a9eaf18-a1d3.2f620faa2"
+            }
+          }
+        },
+        "21": {
+          "title": "тело запроса",
+          "id": "57.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              176.06251525878918,
+              436.0000076293943,
+              3
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "file: base 64 string",
+              "id": "58.ecac.e9a9eaf18-a1d3.2f620faa2",
+              "ideas": {
+                "1": {
+                  "title": "графический файл",
+                  "id": "59.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "пустая строка",
+                  "id": "60.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "3": {
+                  "title": "\"битый файл\"",
+                  "id": "61.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "title": "текстовый файл",
+                  "id": "62.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "0.5": {
+          "title": "параметры строки",
+          "id": "64.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              136.0625152587893,
+              -211.49999237060558,
+              4
+            ]
+          }
+        }
+      }
+    },
+    "4": {
+      "title": "POST\n​/api​/pets",
+      "id": "63.ecac.e9a9eaf18-a1d3.2f620faa2",
+      "attr": {
+        "position": [
+          -172,
+          1144,
+          1
+        ],
+        "style": {
+          "text": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "параметры строки",
+          "id": "65.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              85.06253051757812,
+              -197.75000000000023,
+              3
+            ]
+          }
+        },
+        "6": {
+          "title": "параметры пути",
+          "id": "75.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              93.81253051757812,
+              -110.49997711181663,
+              4
+            ]
+          }
+        },
+        "11": {
+          "title": "заголовки",
+          "id": "66.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              123.95314025878906,
+              -8.999961853027571,
+              5
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "api_key:string",
+              "attr": {
+                "style": {
+                  "fontFamily": "Serif"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "действующий токен",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#339966",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "69.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "токен с истекшим сроком действия",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "70.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "набор случайных символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "71.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "72.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "73.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "6": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "74.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              },
+              "id": "68.ecac.e9a9eaf18-a1d3.2f620faa2"
+            }
+          }
+        },
+        "21": {
+          "title": "тело запроса",
+          "id": "76.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              75.8125,
+              270.5000076293943,
+              6
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "name",
+              "id": "77.ecac.e9a9eaf18-a1d3.2f620faa2",
+              "ideas": {
+                "1": {
+                  "title": "требуемое имя",
+                  "id": "78.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "пустая строка",
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#FFFFFF"
+                      },
+                      "backgroundColor": "#008000"
+                    }
+                  },
+                  "id": "80.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "82.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "строка длинной > 1000 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "83.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "6": {
+                  "title": "строка = 255 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "84.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "7": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "85.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "8": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "86.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              }
+            },
+            "2": {
+              "title": "animal_type",
+              "id": "87.ecac.e9a9eaf18-a1d3.2f620faa2",
+              "ideas": {
+                "1": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "88.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "89.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "строка = 255 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "90.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "строка длинной > 1000 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "91.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "0.5": {
+                  "title": "пустая строка",
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#FFFFFF"
+                      },
+                      "backgroundColor": "#008000"
+                    },
+                    "position": [
+                      175.3125457763672,
+                      -188.24999237060547,
+                      1
+                    ]
+                  },
+                  "id": "93.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "0.75": {
+                  "title": "требуемое имя",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    },
+                    "position": [
+                      106.56251525878906,
+                      -146.24987030029297,
+                      2
+                    ]
+                  },
+                  "id": "94.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              }
+            },
+            "3": {
+              "title": "age",
+              "id": "96.ecac.e9a9eaf18-a1d3.2f620faa2",
+              "ideas": {
+                "1": {
+                  "title": "число",
+                  "id": "97.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "пустая строка",
+                  "id": "98.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  }
+                },
+                "3": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "99.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "строка длинной > 1000 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "100.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "строка = 255 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "101.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "6": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "102.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              }
+            },
+            "4": {
+              "title": "pet_photo",
+              "id": "103.ecac.e9a9eaf18-a1d3.2f620faa2",
+              "ideas": {
+                "1": {
+                  "title": "file: base 64 string",
+                  "ideas": {
+                    "1": {
+                      "title": "графический файл",
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#008000",
+                          "text": {
+                            "color": "#FFFFFF"
+                          }
+                        }
+                      },
+                      "id": "105.ecac.e9a9eaf18-a1d3.2f620faa2"
+                    },
+                    "2": {
+                      "title": "пустая строка",
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#800000",
+                          "text": {
+                            "color": "#FFFFFF"
+                          }
+                        }
+                      },
+                      "id": "106.ecac.e9a9eaf18-a1d3.2f620faa2"
+                    },
+                    "3": {
+                      "title": "\"битый файл\"",
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#800000",
+                          "text": {
+                            "color": "#FFFFFF"
+                          }
+                        }
+                      },
+                      "id": "107.ecac.e9a9eaf18-a1d3.2f620faa2"
+                    },
+                    "4": {
+                      "title": "текстовый файл",
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#800000",
+                          "text": {
+                            "color": "#FFFFFF"
+                          }
+                        }
+                      },
+                      "id": "108.ecac.e9a9eaf18-a1d3.2f620faa2"
+                    }
+                  },
+                  "id": "104.ecac.e9a9eaf18-a1d3.2f620faa2",
+                  "attr": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "title": "DELETE\n​/api​/pets​/{pet_id}",
+      "id": "109.ecac.e9a9eaf18-a1d3.2f620faa2",
+      "attr": {
+        "position": [
+          -1772,
+          -61,
+          1
+        ],
+        "style": {
+          "text": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "тело запроса",
+          "ideas": {},
+          "id": "110.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              154.39062499999977,
+              37.49998474121048,
+              3
+            ]
+          }
+        },
+        "2": {
+          "title": "параметры пути",
+          "attr": {
+            "style": {
+              "text": {
+                "color": "#000000"
+              },
+              "fontFamily": "Serif"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "pet id: string",
+              "ideas": {
+                "1": {
+                  "title": "существующий id",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00FF00",
+                      "text": {
+                        "color": "#000000"
+                      }
+                    }
+                  },
+                  "id": "126.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "пустое значение",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "127.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "несуществующий id",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "128.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "ID, превышающий размер типа",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "129.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "строка",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "130.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              },
+              "id": "125.ecac.e9a9eaf18-a1d3.2f620faa2"
+            }
+          },
+          "id": "124.ecac.e9a9eaf18-a1d3.2f620faa2"
+        },
+        "12": {
+          "title": "параметры строки",
+          "id": "131.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              115.39062499999977,
+              331.4999847412105,
+              2
+            ]
+          }
+        },
+        "0.5": {
+          "title": "заголовки",
+          "ideas": {
+            "1": {
+              "title": "api_key:string",
+              "attr": {
+                "style": {
+                  "fontFamily": "Serif"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "действующий токен",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#339966",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "118.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "токен с истекшим сроком действия",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "119.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "набор случайных символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "120.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "121.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "122.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "6": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "123.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              },
+              "id": "117.ecac.e9a9eaf18-a1d3.2f620faa2"
+            }
+          },
+          "id": "116.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {
+            "position": [
+              153.39062499999977,
+              -88.75001525878952,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "6": {
+      "title": "PUT\n​/api​/pets​/{pet_id}",
+      "id": "133.ecac.e9a9eaf18-a1d3.2f620faa2",
+      "attr": {
+        "position": [
+          -3709,
+          636,
+          1
+        ],
+        "style": {
+          "text": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "параметры строки",
+          "id": "134.ecac.e9a9eaf18-a1d3.2f620faa2"
+        },
+        "2": {
+          "title": "тело запроса",
+          "ideas": {
+            "1": {
+              "title": "name",
+              "ideas": {
+                "1": {
+                  "title": "требуемое имя",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "158.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "пустая строка",
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#FFFFFF"
+                      },
+                      "backgroundColor": "#008000"
+                    }
+                  },
+                  "id": "159.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "160.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "строка длинной > 1000 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "161.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "строка = 255 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "162.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "6": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "163.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "7": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "164.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              },
+              "id": "157.ecac.e9a9eaf18-a1d3.2f620faa2"
+            },
+            "2": {
+              "title": "animal_type",
+              "ideas": {
+                "1": {
+                  "title": "пустая строка",
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#FFFFFF"
+                      },
+                      "backgroundColor": "#008000"
+                    },
+                    "position": [
+                      175.3125457763672,
+                      -188.24999237060547,
+                      1
+                    ]
+                  },
+                  "id": "166.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "требуемое имя",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    },
+                    "position": [
+                      106.56251525878906,
+                      -146.24987030029297,
+                      2
+                    ]
+                  },
+                  "id": "167.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "168.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "169.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "строка = 255 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "170.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "6": {
+                  "title": "строка длинной > 1000 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "171.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              },
+              "id": "165.ecac.e9a9eaf18-a1d3.2f620faa2"
+            },
+            "3": {
+              "title": "age",
+              "ideas": {
+                "1": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "173.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "пустая строка",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "174.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "175.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "строка длинной > 1000 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "176.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "строка = 255 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "177.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "6": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "178.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              },
+              "id": "172.ecac.e9a9eaf18-a1d3.2f620faa2"
+            }
+          },
+          "id": "156.ecac.e9a9eaf18-a1d3.2f620faa2"
+        },
+        "1.5": {
+          "title": "параметры пути",
+          "attr": {
+            "style": {
+              "text": {
+                "color": "#000000"
+              },
+              "fontFamily": "Serif"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "pet id: string",
+              "ideas": {
+                "1": {
+                  "title": "существующий id",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00FF00",
+                      "text": {
+                        "color": "#000000"
+                      }
+                    }
+                  },
+                  "id": "137.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "пустое значение",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "138.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "несуществующий id",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "139.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "ID, превышающий размер типа",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "140.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "строка",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "141.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              },
+              "id": "136.ecac.e9a9eaf18-a1d3.2f620faa2"
+            }
+          },
+          "id": "135.ecac.e9a9eaf18-a1d3.2f620faa2"
+        },
+        "1.75": {
+          "title": "заголовки",
+          "ideas": {
+            "1": {
+              "title": "api_key:string",
+              "attr": {
+                "style": {
+                  "fontFamily": "Serif"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "действующий токен",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#339966",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "150.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "2": {
+                  "title": "токен с истекшим сроком действия",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "151.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "3": {
+                  "title": "набор случайных символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "152.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "4": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "153.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "5": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "154.ecac.e9a9eaf18-a1d3.2f620faa2"
+                },
+                "6": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "155.ecac.e9a9eaf18-a1d3.2f620faa2"
+                }
+              },
+              "id": "149.ecac.e9a9eaf18-a1d3.2f620faa2"
+            }
+          },
+          "id": "148.ecac.e9a9eaf18-a1d3.2f620faa2",
+          "attr": {}
+        }
+      }
+    },
+    "7": {
+      "title": "Post /api/create_pet_simple",
+      "id": "179.c795.64a715fe4-c105.2df6ae434",
+      "attr": {
+        "position": [
+          -2529,
+          868,
+          1
+        ],
+        "style": {
+          "text": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "параметры строки",
+          "id": "201.c795.64a715fe4-c105.2df6ae434",
+          "attr": {
+            "position": [
+              164.03125,
+              -294.9921875,
+              1
+            ]
+          }
+        },
+        "2": {
+          "title": "параметры пути",
+          "attr": {
+            "style": {
+              "text": {
+                "color": "#000000"
+              },
+              "fontFamily": "Serif"
+            }
+          },
+          "ideas": {},
+          "id": "194.c795.64a715fe4-c105.2df6ae434"
+        },
+        "3": {
+          "title": "тело запроса",
+          "ideas": {
+            "1": {
+              "title": "name",
+              "ideas": {
+                "1": {
+                  "title": "требуемое имя",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "204.c795.64a715fe4-c105.2df6ae434"
+                },
+                "2": {
+                  "title": "пустая строка",
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#FFFFFF"
+                      },
+                      "backgroundColor": "#008000"
+                    }
+                  },
+                  "id": "205.c795.64a715fe4-c105.2df6ae434"
+                },
+                "3": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "206.c795.64a715fe4-c105.2df6ae434"
+                },
+                "4": {
+                  "title": "строка длинной > 1000 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "207.c795.64a715fe4-c105.2df6ae434"
+                },
+                "5": {
+                  "title": "строка = 255 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "208.c795.64a715fe4-c105.2df6ae434"
+                },
+                "6": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "209.c795.64a715fe4-c105.2df6ae434"
+                },
+                "7": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "210.c795.64a715fe4-c105.2df6ae434"
+                }
+              },
+              "id": "203.c795.64a715fe4-c105.2df6ae434"
+            },
+            "2": {
+              "title": "animal_type",
+              "ideas": {
+                "1": {
+                  "title": "пустая строка",
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#FFFFFF"
+                      },
+                      "backgroundColor": "#008000"
+                    },
+                    "position": [
+                      175.3125457763672,
+                      -188.24999237060547,
+                      1
+                    ]
+                  },
+                  "id": "212.c795.64a715fe4-c105.2df6ae434"
+                },
+                "2": {
+                  "title": "требуемое имя",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    },
+                    "position": [
+                      106.56251525878906,
+                      -146.24987030029297,
+                      2
+                    ]
+                  },
+                  "id": "213.c795.64a715fe4-c105.2df6ae434"
+                },
+                "3": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "214.c795.64a715fe4-c105.2df6ae434"
+                },
+                "4": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "215.c795.64a715fe4-c105.2df6ae434"
+                },
+                "5": {
+                  "title": "строка = 255 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "216.c795.64a715fe4-c105.2df6ae434"
+                },
+                "6": {
+                  "title": "строка длинной > 1000 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "217.c795.64a715fe4-c105.2df6ae434"
+                }
+              },
+              "id": "211.c795.64a715fe4-c105.2df6ae434"
+            },
+            "3": {
+              "title": "age",
+              "ideas": {
+                "1": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "219.c795.64a715fe4-c105.2df6ae434"
+                },
+                "2": {
+                  "title": "пустая строка",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "220.c795.64a715fe4-c105.2df6ae434"
+                },
+                "3": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "221.c795.64a715fe4-c105.2df6ae434"
+                },
+                "4": {
+                  "title": "строка длинной > 1000 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "222.c795.64a715fe4-c105.2df6ae434"
+                },
+                "5": {
+                  "title": "строка = 255 символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "223.c795.64a715fe4-c105.2df6ae434"
+                },
+                "6": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "224.c795.64a715fe4-c105.2df6ae434"
+                }
+              },
+              "id": "218.c795.64a715fe4-c105.2df6ae434"
+            }
+          },
+          "id": "202.c795.64a715fe4-c105.2df6ae434"
+        },
+        "2.5": {
+          "title": "заголовки",
+          "ideas": {
+            "1": {
+              "title": "api_key:string",
+              "attr": {
+                "style": {
+                  "fontFamily": "Serif"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "действующий токен",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#339966",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "188.c795.64a715fe4-c105.2df6ae434"
+                },
+                "2": {
+                  "title": "токен с истекшим сроком действия",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "189.c795.64a715fe4-c105.2df6ae434"
+                },
+                "3": {
+                  "title": "набор случайных символов",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "190.c795.64a715fe4-c105.2df6ae434"
+                },
+                "4": {
+                  "title": "спецсимволы",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "191.c795.64a715fe4-c105.2df6ae434"
+                },
+                "5": {
+                  "title": "кодировка (кириллица, китайские символы)",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "192.c795.64a715fe4-c105.2df6ae434"
+                },
+                "6": {
+                  "title": "число",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800000",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    }
+                  },
+                  "id": "193.c795.64a715fe4-c105.2df6ae434"
+                }
+              },
+              "id": "187.c795.64a715fe4-c105.2df6ae434"
+            }
+          },
+          "id": "186.c795.64a715fe4-c105.2df6ae434",
+          "attr": {}
+        }
+      }
+    }
+  },
+  "title": "'GET'/api/key",
+  "links": []
+}
